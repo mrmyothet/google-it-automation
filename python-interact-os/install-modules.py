@@ -1,6 +1,9 @@
+# https://discuss.python.org/t/on-macos-14-pip-install-throws-error-externally-managed-environment/50352/6
+
 # pip install requests
 # pip install arrow
-# pip install Pillow # for windows
+# pip install Pillow # for Windows and Mac OS
+# pip install pandas
 
 import requests
 import arrow
@@ -13,7 +16,7 @@ print(len(response.text))
 date = arrow.get("2024-09-30", "YYYY-MM-DD")
 print(date.shift(weeks=+6).format("MMM DD YYYY"))
 
-image = PIL.Image.open("python-interact-os\profile.jpg")
+image = PIL.Image.open("python-interact-os/profile.jpg")
 print(image.size)
 print(image.format)
 
