@@ -21,3 +21,7 @@
 ### Certificates of Completion
 
 - [Crash Course on Python](https://coursera.org/share/4e974629deb4ddd8a429465f880457a8)
+
+##### [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+
+##### [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
