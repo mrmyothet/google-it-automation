@@ -16,7 +16,7 @@ print(len(response.text))
 date = arrow.get("2024-09-30", "YYYY-MM-DD")
 print(date.shift(weeks=+6).format("MMM DD YYYY"))
 
-image = PIL.Image.open("interact-with-os/profile.jpg")
+image = PIL.Image.open("profile.jpg")
 print(image.size)
 print(image.format)
 
