@@ -11,3 +11,8 @@ python -m venv .venv
 .\.venv\Scripts\activate # On Windows
 pip install -r requirements.txt
 ```
+
+Is automation worthwhile? 
+```python
+Time_to_automate < (time_to_perform * amount_of_times_done)
+```
