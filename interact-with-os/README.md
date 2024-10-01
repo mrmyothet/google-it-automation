@@ -16,3 +16,6 @@ Is automation worthwhile?
 ```python
 Time_to_automate < (time_to_perform * amount_of_times_done)
 ```
+
+- https://docs.python.org/3/library/os.html
+- https://docs.python.org/3/library/os.path.html
