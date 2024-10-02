@@ -18,10 +18,38 @@
 - https://rextester.com/l/python3_online_compiler
 - https://trinket.io/python3
 
+---
+
 ### Certificates of Completion
 
 - [Crash Course on Python](https://coursera.org/share/4e974629deb4ddd8a429465f880457a8)
 
+---
+
 ##### [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 
 ##### [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+
+---
+
+- [venv — Creation of virtual environments](https://docs.python.org/3/library/venv.html)
+
+```bash
+python -m venv .venv
+source .venv/bin/activate # on Linux
+pip install -r requirements.txt
+```
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate # On Windows
+pip install -r requirements.txt
+```
+
+Is automation worthwhile? 
+```python
+Time_to_automate < (time_to_perform * amount_of_times_done)
+```
+
+- https://docs.python.org/3/library/os.html
+- https://docs.python.org/3/library/os.path.html
