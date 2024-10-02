@@ -53,3 +53,5 @@ Time_to_automate < (time_to_perform * amount_of_times_done)
 
 - https://docs.python.org/3/library/os.html
 - https://docs.python.org/3/library/os.path.html
+- https://docs.python.org/3/library/csv.html
+- https://realpython.com/python-csv
