@@ -46,7 +46,8 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Is automation worthwhile? 
+Is automation worthwhile?
+
 ```python
 Time_to_automate < (time_to_perform * amount_of_times_done)
 ```
@@ -55,3 +56,7 @@ Time_to_automate < (time_to_perform * amount_of_times_done)
 - https://docs.python.org/3/library/os.path.html
 - https://docs.python.org/3/library/csv.html
 - https://realpython.com/python-csv
+
+---
+
+### [Regular Expressions 101](https://regex101.com/)
