@@ -60,3 +60,7 @@ Time_to_automate < (time_to_perform * amount_of_times_done)
 ---
 
 ### [Regular Expressions 101](https://regex101.com/)
+
+The `sys` module provides information about the Python interpreter's constants, functions, and methods.
+The `os` module provides a portable way of using operating system dependent functionality with Python.
+Regular Expression (RegEx) is a sequence of characters that defines a search pattern. We can use regular expressions using `re` module.
