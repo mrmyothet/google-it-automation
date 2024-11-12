@@ -3,7 +3,7 @@ import unittest
 
 class AssertMethods(unittest.TestCase):
 
-    def assert_methods_in_test_case(self):
+    def test_assert_methods(self):
 
         testcase = "testcase"
         expected = "expected"
