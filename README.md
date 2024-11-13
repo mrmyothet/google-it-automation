@@ -64,3 +64,13 @@ Time_to_automate < (time_to_perform * amount_of_times_done)
 The `sys` module provides information about the Python interpreter's constants, functions, and methods.
 The `os` module provides a portable way of using operating system dependent functionality with Python.
 Regular Expression (RegEx) is a sequence of characters that defines a search pattern. We can use regular expressions using `re` module.
+
+### Unit Test
+
+- https://docs.python.org/3/library/unittest.html
+
+### Jupyter Notebooks
+
+- [Jupyter Notebook Tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook), by datacamp.com
+- [How to use Jupyter Notebooks](https://www.codecademy.com/article/how-to-use-jupyter-notebooks), by codeacademy.com
+- [Teaching and Learning with Jupyter](https://jupyter4edu.github.io/jupyter-edu-book/), by university professors using Jupyter
