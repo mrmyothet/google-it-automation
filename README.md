@@ -74,3 +74,10 @@ Regular Expression (RegEx) is a sequence of characters that defines a search pat
 - [Jupyter Notebook Tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook), by datacamp.com
 - [How to use Jupyter Notebooks](https://www.codecademy.com/article/how-to-use-jupyter-notebooks), by codeacademy.com
 - [Teaching and Learning with Jupyter](https://jupyter4edu.github.io/jupyter-edu-book/), by university professors using Jupyter
+
+### Handling Errors
+
+- https://doughellmann.com/posts/python-exception-handling-techniques
+- https://docs.python.org/3/tutorial/errors.html#raising-exceptions
+- https://realpython.com/python-exceptions/
+- https://realpython.com/python-raise-exception/#handling-exceptional-situations-in-python
