@@ -21,7 +21,7 @@ def find_email(argv):
     # Create the username based on the command line input.
     fullname = str(argv[1] + " " + argv[2])
     # Preprocess the data
-    email_dict = populate_dictionary("/home/student/data/user_emails.csv")
+    email_dict = populate_dictionary("emails.csv")
     # Find and print the email
     return email_dict.get(fullname.lower())
 
