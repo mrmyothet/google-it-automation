@@ -24,7 +24,11 @@ def find_email(argv):
         # Preprocess the data
         email_dict = populate_dictionary("emails.csv")
         # Find and print the email
-        return email_dict.get(fullname.lower())
+        email_found = email_dict.get(fullname.lower())
+        if email_found:
+            return email_found
+        else:
+            return "No email address found"
     except IndexError:
         return "Missing parameters"
 
