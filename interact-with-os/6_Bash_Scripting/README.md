@@ -16,3 +16,15 @@ Pipe
 ```bash
 cat haiku.txt | ./captalize.py
 ```
+
+Signals   
+- Tokens delivered to running processes to indicate a desired action 
+
+```bash
+ping www.example.com
+```
+
+```bash
+ps ax | grep ping
+kill 99482
+```
