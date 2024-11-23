@@ -62,9 +62,16 @@ These are some commands that are useful to know in Linux when interacting with p
 - **jobs**: lists the jobs currently running or stopped
 - **top**: shows the processes currently using the most CPU time (press "q" to quit)
 
-In Bash scripting, an exit value of 0 means success. 
+In Bash scripting, an exit value of 0 means success.
 
 Test
-- A command that evaluates the conditions received and 
-- exits with zero when they're true 
-- exits with one when they're false 
+
+- A command that evaluates the conditions received and
+- exits with zero when they're true
+- exits with one when they're false
+
+##### Bash Scripting Resources
+
+- https://ryanstutorials.net/bash-scripting-tutorial/
+- https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+- https://www.shellscript.sh/
