@@ -61,3 +61,10 @@ These are some commands that are useful to know in Linux when interacting with p
 - **bg**: causes a job that was stopped to go to the background
 - **jobs**: lists the jobs currently running or stopped
 - **top**: shows the processes currently using the most CPU time (press "q" to quit)
+
+In Bash scripting, an exit value of 0 means success. 
+
+Test
+- A command that evaluates the conditions received and 
+- exits with zero when they're true 
+- exits with one when they're false 
