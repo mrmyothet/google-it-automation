@@ -12,3 +12,8 @@ diff -u disk_usage_original.py disk_usage_fixed.py > disk_usage.diff
 patch disk_usage.py < disk_usage.diff
 
 ```
+
+```bash
+git config -l
+git config list
+```
