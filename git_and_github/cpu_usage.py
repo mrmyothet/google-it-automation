@@ -4,7 +4,8 @@ import psutil
 
 
 def check_cpu_usage(percent):
-    usage = psutil.cpu_percent()
+    usage = psutil.cpu_percent(1)
+    print("DEBUG: usage:{}".format(usage))
     return usage < percent
 
 
