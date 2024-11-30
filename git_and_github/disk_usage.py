@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import shutil
+import sys
 
 
 def check_disk_usage(disk, min_absolute, min_percent):
@@ -16,9 +17,9 @@ def check_disk_usage(disk, min_absolute, min_percent):
 
 
 # Check for at least 2 GB and 10% free
-if not check_disk_usage("/", 2 * 2**30, 10):
+if not check_disk_usage("/", 2, 10):
     print("ERROR: Not enough disk space")
-    return 1
+    sys.exit(1)
 
 print("Everything ok")
-return 0
+sys.exit(0)
