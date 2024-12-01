@@ -85,3 +85,11 @@ git log --oneline
 git show d6c6c89
 git revert d6c6c89
 ```
+
+```bash
+git branch 
+git branch new-feature
+git checkout new-feature
+git branch 
+git checkout -b 'even-better-feature'
+```
