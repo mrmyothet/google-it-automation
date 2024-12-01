@@ -79,3 +79,9 @@ git commit --amend
 git revert HEAD
 git log -p -2
 ```
+
+```bash
+git log --oneline
+git show d6c6c89
+git revert d6c6c89
+```
