@@ -57,4 +57,9 @@ git log --stat
 git add -p
 git diff --staged
 git rm disk_usage_original.py
+git mv disk_usage.py check_free_space.py
+```
+
+```bash
+echo .DS_STORE > .gitignore
 ```
