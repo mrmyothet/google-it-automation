@@ -63,3 +63,9 @@ git mv disk_usage.py check_free_space.py
 ```bash
 echo .DS_STORE > .gitignore
 ```
+
+```bash
+git checkout all_checks.py
+git add *
+git reset HEAD output.txt
+```
