@@ -49,3 +49,11 @@ Click the link to review an example of a commit message:
 - **Tracked:** A file’s changes are recorded
 - **Untracked:** A file’s changes are not recorded
 - **Version control systems (VCS):** A tool to safely test code before releasing it, allow multiple people collaborate on the same coding projects together, and stores the history of that code and configuration
+
+```bash
+git log -p # patch 
+git show e1f7964
+git log --stat
+git add -p
+
+```
