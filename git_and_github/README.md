@@ -74,3 +74,8 @@ git reset HEAD output.txt
 git add gather-information.sh
 git commit --amend
 ```
+
+```bash
+git revert HEAD
+git log -p -2
+```
