@@ -55,5 +55,6 @@ git log -p # patch
 git show e1f7964
 git log --stat
 git add -p
-
+git diff --staged
+git rm disk_usage_original.py
 ```
