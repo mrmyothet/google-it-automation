@@ -69,3 +69,8 @@ git checkout all_checks.py
 git add *
 git reset HEAD output.txt
 ```
+
+```bash
+git add gather-information.sh
+git commit --amend
+```
