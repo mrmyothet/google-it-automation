@@ -51,7 +51,7 @@ Click the link to review an example of a commit message:
 - **Version control systems (VCS):** A tool to safely test code before releasing it, allow multiple people collaborate on the same coding projects together, and stores the history of that code and configuration
 
 ```bash
-git log -p # patch 
+git log -p # patch
 git show e1f7964
 git log --stat
 git add -p
@@ -87,14 +87,15 @@ git revert d6c6c89
 ```
 
 ```bash
-git branch 
+git branch
 git branch new-feature
 git checkout new-feature
-git branch 
+git branch
 git checkout -b 'even-better-feature'
 ```
 
 It will cache credentials for 15 minutes
+
 ```bash
 git config --global credential.helper cache
 ```
@@ -107,7 +108,7 @@ git status
 ```
 
 ```bash
-git fetch 
+git fetch
 git log origin/main
 git status
 git merge origin/main
@@ -118,3 +119,14 @@ git pull
 git remote show origin
 git checkout exprimental
 ```
+
+### Terms and definitions
+
+- **Branch:** A pointer to a particular commit, representing an independent line of development in a project
+- **Commit ID:** An identifier next to the word commit in the log
+- **Fast-forward merge:** A merge when all the commits in the checked out branch are also in the branch that's being merged
+- **Head:** This points to the top of the branch that is being used
+- **Master:** The default branch that Git creates for when a new repository initialized, commonly used to place the approved pieces of a project
+- **Merge conflict:** This occurs when the changes are made on the same part of the same file, and Git won't know how to merge those changes
+- **Rollback:** The act of reverting changes made to software to a previous state
+- **Three-way merge:** A merge when the snapshots at the two branch tips with the most recent common ancestor, the commit before the divergence
