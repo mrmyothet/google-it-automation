@@ -130,3 +130,14 @@ git checkout exprimental
 - **Merge conflict:** This occurs when the changes are made on the same part of the same file, and Git won't know how to merge those changes
 - **Rollback:** The act of reverting changes made to software to a previous state
 - **Three-way merge:** A merge when the snapshots at the two branch tips with the most recent common ancestor, the commit before the divergence
+
+### Secure Shell and & API Keys
+
+- [SSH Protocol – Secure Remote Login and File Transfer](https://www.coursera.org/learn/introduction-git-github/supplement/cecyq/the-ssh-protocol)
+- [Public Key and Private Key: How they Pair & Work Together](https://www.preveil.com/blog/public-and-private-key/)
+- [A Deep Dive on End-to-End Encryption](https://ssd.eff.org/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work)
+- [Difference between SFTP and SCP](https://www.tutorialspoint.com/difference-between-sftp-and-scp)
+- [SSH Port Forwarding (SSH Tunneling) Explained](https://phoenixnap.com/kb/ssh-port-forwarding)
+- [How to Set Up an SSH Jump Server](https://goteleport.com/blog/ssh-jump-server/)
+- [Use X forwarding on a personal computer](https://servicenow.iu.edu/kb?id=kb_article_view&sysparm_article=KB0023566)
+- [Adding your SSH key to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent)
