@@ -98,3 +98,23 @@ It will cache credentials for 15 minutes
 ```bash
 git config --global credential.helper cache
 ```
+
+```bash
+git remote -v
+git remote show origin
+git branch -r
+git status
+```
+
+```bash
+git fetch 
+git log origin/main
+git status
+git merge origin/main
+```
+
+```bash
+git pull
+git remote show origin
+git checkout exprimental
+```
