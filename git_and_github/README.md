@@ -141,3 +141,5 @@ git checkout exprimental
 - [How to Set Up an SSH Jump Server](https://goteleport.com/blog/ssh-jump-server/)
 - [Use X forwarding on a personal computer](https://servicenow.iu.edu/kb?id=kb_article_view&sysparm_article=KB0023566)
 - [Adding your SSH key to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent)
+- [How To Tune your SSH Daemon Configuration on a Linux VPS](https://www.digitalocean.com/community/tutorials/how-to-tune-your-ssh-daemon-configuration-on-a-linux-vps)
+- [PuTTY: a free SSH and Telnet client](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
