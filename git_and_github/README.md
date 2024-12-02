@@ -93,3 +93,8 @@ git checkout new-feature
 git branch 
 git checkout -b 'even-better-feature'
 ```
+
+It will cache credentials for 15 minutes
+```bash
+git config --global credential.helper cache
+```
