@@ -143,3 +143,19 @@ git checkout exprimental
 - [Adding your SSH key to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent)
 - [How To Tune your SSH Daemon Configuration on a Linux VPS](https://www.digitalocean.com/community/tutorials/how-to-tune-your-ssh-daemon-configuration-on-a-linux-vps)
 - [PuTTY: a free SSH and Telnet client](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
+
+
+```bash
+git push -u origin refactor
+git checkout main
+git pull
+git log --graph --oneline --all
+git checkout refactor
+git rebase main
+git log --graph --oneline --all
+git checkout main
+git merge refactor
+git push --delete origin refactor
+git branch -d refactor
+git push
+```
