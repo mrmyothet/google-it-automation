@@ -176,3 +176,7 @@ git push
 - **SSH key:** An access credential
 - **SSH protocol:** Standard commonly used for logging in to servers remotely on the principle of public-key encryption
 - **SSH server:** This establishes secure network connections, undergoes mutual authentication, and initiates encrypted login sessions or file transfers
+
+---
+
+- [Managing your personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
