@@ -192,3 +192,48 @@ git push
 ---
 
 - [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+
+---
+
+- [Google Style Guide](https://github.com/google/styleguide)
+- [Reviewing proposed changes in pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request)
+
+---
+
+### Command-line with HTTPS
+
+Install the Git CLI according to your operating system.  
+When you push to a GitHub repository over HTTPS, or clone a private repository, Git will prompt you for your GitHub username and password.
+
+If you don’t want to enter your username and password every time,  
+you can store them in a file called .netrc in your home directory, like this:
+
+```
+machine GitHub.com
+    login my-username
+    password my-password
+
+
+machine api.GitHub.com
+    login my-username
+    password my-password
+```
+
+---
+
+### GitHub Project Management Tools
+
+- [A Quick Guide to Using GitHub For Project Management](https://www.jobsity.com/blog/a-quick-guide-to-using-github-for-project-management)
+- [GitHub for project management](https://openscapes.github.io/series/core-lessons/github/github-issues.html)
+- [Using GitHub as your Project Management Tool | Learn with Dr. G](https://www.youtube.com/watch?v=qgQAFP6oSKw)
+- [GitHub Issues: Project Planning for Developers](https://github.com/features/issues)
+
+#### Additional Tools
+
+- [Open source DIY ethics](https://www.arp242.net/diy.html)
+- [Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue)
+- [Setting guidelines for repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors)
+- [What is CI/CD? Continuous integration and continuous delivery explained](https://www.infoworld.com/article/2269266/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html)
+- [CI/CD: What It Is and What You Need to Know](https://stackify.com/what-is-cicd-whats-important-and-how-to-get-it-right/)
+- [Travis CI Tutorial](https://docs.travis-ci.com/user/tutorials/tutorials-overview/)
+- [Travis CI Build Stages](https://docs.travis-ci.com/user/build-stages/)
