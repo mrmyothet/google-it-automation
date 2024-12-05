@@ -24,6 +24,7 @@
 
 - [Crash Course on Python](https://coursera.org/share/4e974629deb4ddd8a429465f880457a8)
 - [Using Python to Interact with the Operating System](https://coursera.org/share/4906b2cc27271676e31efef94de10666)
+- [Git and GitHub](https://coursera.org/share/2e664ed7624ad27981b8f8f2c32b97c9)
 
 ---
 
