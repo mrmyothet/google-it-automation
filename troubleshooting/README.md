@@ -26,3 +26,12 @@ Limit the bandwidth
 ```bash
 rsync -bwlimit
 ```
+
+### Heisenbugs
+
+Turning Off and On again (Reboot or restart a program)
+- releasing all allocated memory
+- deleting temporary files
+- resetting running state of programs
+- re-establishing network connection
+- closing opened files
