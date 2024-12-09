@@ -59,3 +59,27 @@ python3 -m aiosmtpd -n
 ```bash
 telnet localhost 8025
 ```
+---
+
+### Bisect Method
+
+```bash
+cat contacts.csv | ./import.py --server test
+# Import error
+wc -l contacts.csv
+# 100 contacts.csv
+head -15 contacts.csv
+tail -20 contacts.csv
+head -50 contacts.csv | ./import.py --server test
+# Import error
+head -50 contacts.csv | head -25 | ./import.py --server test
+# Import successful
+head -50 contacts.csv | tail -25 | ./import.py --server test
+# Import error
+head -50 contacts.csv | tail -25 | head -13 | ./import.py --server test
+# Import successful
+head -50 contacts.csv | tail -25 | tail -12 | head -6 | ./import.py --server test
+# Import error
+head -50 contacts.csv | tail -25 | tail -12 | head -6 | head -3 | ./import.py --server test
+# Import error
+```
