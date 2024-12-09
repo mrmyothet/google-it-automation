@@ -1,5 +1,5 @@
 Whenever possible, we should check our hypothesis in a test environment,
-indead of the production server that our users are working with. 
+indead of the production server that our users are working with.
 
 ```bash
 sudo apt-get install iotop
@@ -7,12 +7,14 @@ sudo iotop
 ```
 
 other related tools
+
 ```bash
 iostat
 vmstat
 ```
 
 then
+
 ```bash
 ionice
 ```
@@ -23,6 +25,7 @@ sudo iftop
 ```
 
 Limit the bandwidth
+
 ```bash
 rsync -bwlimit
 ```
@@ -30,6 +33,7 @@ rsync -bwlimit
 ### Heisenbugs
 
 Turning Off and On again (Reboot or restart a program)
+
 - releasing all allocated memory
 - deleting temporary files
 - resetting running state of programs
@@ -45,9 +49,11 @@ sudo apt install net-tools
 netstat -nlt | grep '\<\25>'
 ```
 
+- [aiosmtpd](https://aiosmtpd.aio-libs.org/en/latest/cli.html)
+
 ```bash
 pip install aiosmtpd
-python -m smtpd
+python3 -m aiosmtpd -n
 ```
 
 ```bash
