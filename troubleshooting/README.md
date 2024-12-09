@@ -35,3 +35,21 @@ Turning Off and On again (Reboot or restart a program)
 - resetting running state of programs
 - re-establishing network connection
 - closing opened files
+
+---
+
+SMTP - Failure to send email: [Errno 111] Connection refused
+
+```bash
+sudo apt install net-tools
+netstat -nlt | grep '\<\25>'
+```
+
+```bash
+pip install aiosmtpd
+python -m smtpd
+```
+
+```bash
+telnet localhost 8025
+```
