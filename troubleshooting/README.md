@@ -105,6 +105,7 @@ logrotate
 ```
 
 Apache Benchmark
+
 ```
 sudo apt-get install apache2-utils
 ```
@@ -114,7 +115,7 @@ ab -n 500 site.example.com
 ```
 
 ```bash
-top 
+top
 
 nice
 
@@ -136,3 +137,34 @@ for pid in $(pidof ffmpeg); do while kill -CONT $pid; do sleep 1; done; done;
 
 ab -n 500 site.example.com
 ```
+
+### Windows processes
+
+Windows Process Monitor, also known as Sysinternals, is a powerful monitoring tool that serves as an advanced task manager.  
+It provides real-time insight into various aspects of the system, including file system operations, registry changes, processes, and threads.  
+The tool excels at diagnosing file access issues, analyzing system configurations, and understanding processes.
+
+- https://learn.microsoft.com/en-us/sysinternals/downloads/procmon
+
+### Linux performance
+
+To enhance your Linux system's performance, you can use specialized tools  
+that offer real-time insights into CPU, memory, disk I/O, and network activity for quick performance bottleneck detection.
+Some of these tools include **Perf-tools**, **bcc/BPF**, and **bpftrace**.
+
+- https://www.brendangregg.com/linuxperf.html
+
+### The USE method
+
+The USE Method is essential for optimizing system performance and troubleshooting servers.  
+It helps identify resource bottlenecks and performance issues by analyzing Utilization, Saturation, and Errors.
+Resources like CPUs, memory, storage, and network interfaces can be measured for busy time, additional workload capacity, and errors.
+
+- https://brendangregg.com/usemethod.html
+
+---
+
+- [macOS Activity Monitor](https://support.apple.com/guide/activity-monitor/welcome/mac)
+- [Windows Performance Monitor](https://www.windowscentral.com/how-use-performance-monitor-windows-10)
+- [Windows Resource Monitor](https://www.digitalcitizen.life/how-use-resource-monitor-windows-7/)
+- [Windows Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
