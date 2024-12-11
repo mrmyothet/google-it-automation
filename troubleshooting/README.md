@@ -97,3 +97,42 @@ head -50 contacts.csv | tail -25 | tail -12 | head -6 | head -3 | ./import.py --
 - **Observer effect:** The idea that observing a phenomenon alters the phenomenon
 - **System calls:** The calls that the programs running on our computer make to the running kernel
 - **Troubleshooting:** The process of solving any kind of problem in the system running the application
+
+---
+
+```bash
+logrotate
+```
+
+Apache Benchmark
+```
+sudo apt-get install apache2-utils
+```
+
+```bash
+ab -n 500 site.example.com
+```
+
+```bash
+top 
+
+nice
+
+renice
+
+for pid in $(pidof ffmpeg); do renice 19 $pid; done
+
+ab -n 500 site.example.com
+
+ps ax | less
+
+locate static/001.webm
+
+grep ffmpeg *
+
+killall -STOP ffmpeg
+
+for pid in $(pidof ffmpeg); do while kill -CONT $pid; do sleep 1; done; done;
+
+ab -n 500 site.example.com
+```
