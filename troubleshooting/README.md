@@ -239,6 +239,11 @@ sys 0m0.013s
 - **sys** The time spent doing system-level opertions
 
 ```bash
+sudo apt-get install python3-pprofile
+sudo snap install kcachegrind
+```
+
+```bash
 pprofile3 -f callgrind -o profile.out ./send_reminders.py "2020-01-13|Example|test1, test2, test3, test4, test5, test6, test7, test8, test9"
 
 kcachegrind profile.out
