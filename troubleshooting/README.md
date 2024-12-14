@@ -248,3 +248,17 @@ pprofile3 -f callgrind -o profile.out ./send_reminders.py "2020-01-13|Example|te
 
 kcachegrind profile.out
 ```
+
+```bash
+pip install pprofile
+
+pprofile -f callgrind -o profile.out ./send_reminders.py "2020-01-13|Example|test1, test2, test3, test4, test5, test6, test7, test8, test9"
+
+brew install qcachegrind
+```
+
+---
+
+**Threads** Let us run parallel tasks inside a process.
+**Executor** The process that's in charge of distributing the work among the different workers.
+**Futures** module - Provides a couple of different executors; one for using threads and another for using processes.
