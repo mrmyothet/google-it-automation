@@ -168,3 +168,16 @@ Resources like CPUs, memory, storage, and network interfaces can be measured for
 - [Windows Performance Monitor](https://www.windowscentral.com/how-use-performance-monitor-windows-10)
 - [Windows Resource Monitor](https://www.digitalcitizen.life/how-use-resource-monitor-windows-7/)
 - [Windows Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+
+---
+
+### Writing efficient code 
+
+We should always start by writing clear code that does what it should, 
+and only try to make it faster if we realize that it's not fast enough.
+
+- **Profiler:** A tool that measures the resources that our code is using, giving us a better understanding of what's going on
+- **gprof** for C programs
+- **cProfile module** for Python programs
+
+**Expensive actions** Those that can take a long time to complete
