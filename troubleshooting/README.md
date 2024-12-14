@@ -227,3 +227,19 @@ If we need to look up the elements using a key, we will use a dictionary.
 
 - read file, read data over the network before the loops
 - break out of the loops once you've found what you were looking for.
+
+---
+
+real 0m0.129s
+user 0m0.068s
+sys 0m0.013s
+
+- **real** The amount of actual time that it took to execute the command
+- **user** The time spent doing operations in the user space
+- **sys** The time spent doing system-level opertions
+
+```bash
+pprofile3 -f callgrind -o profile.out ./send_reminders.py "2020-01-13|Example|test1, test2, test3, test4, test5, test6, test7, test8, test9"
+
+kcachegrind profile.out
+```
