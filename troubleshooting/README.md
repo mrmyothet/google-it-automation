@@ -181,3 +181,42 @@ and only try to make it faster if we realize that it's not fast enough.
 - **cProfile module** for Python programs
 
 **Expensive actions** Those that can take a long time to complete
+
+---
+
+### Using the right data structures 
+
+**Lists** 
+Sequences of elements. 
+We can add, remove or modify the elements in them,
+and we can iterate through the whole list to operate on each of the elements.
+
+- List in Python
+- ArrayList in Java
+- Vector in C++
+- Array in Ruby
+- Slice in Go
+
+**Dictionaries**
+Store key-value pairs.
+We add data by associating a value to a key. 
+and then we retrive a value by looking up a specific key.
+
+- Dictionary in Python
+- HashMap in Java
+- Unordered Map in C++
+- Hash in Ruby
+- Map in Go
+
+If we need to access elements by position, or 
+will always iterate through all the elements, use a list to store them.
+- list of computers in the network
+- employees in the company
+- products curently on sales
+
+If we need to look up the elements using a key, we will use a dictionary.
+- user associated by user name
+- IP associated by host name 
+- data associated by product code 
+
+---
