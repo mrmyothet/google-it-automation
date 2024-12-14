@@ -39,23 +39,24 @@ See u there.
     return message
 
 
-def get_name(contacts, email):
-    name = ""
+def read_names(contacts, email):
+    names = {}
     with open(contacts) as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
-            if row[0] == email:
-                name = row[1]
-    return name
+            names[row[0]] = row[1]
+
+    return names
 
 
 def send_message(date, title, emails, contacts):
     smtp = smtplib.SMTP("localhost:8025")
-
     print(emails)
 
+    names = read_names(contacts)
+
     for email in emails.split(","):
-        name = get_name(contacts, email)
+        name = names[email]
         message = message_template(date, title, name)
         message["From"] = "myothet@solidplm.com"
         message["To"] = email
