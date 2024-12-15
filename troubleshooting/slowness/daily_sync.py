@@ -44,3 +44,5 @@ for root, dirnames, filenames in os.walk(src):
         # p.map(run, root, filenames)
 
         executor.submit(run, root, basename)
+print("Waiting for all threads to finish....")
+executor.shutdown()
