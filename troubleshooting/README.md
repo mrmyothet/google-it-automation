@@ -262,3 +262,11 @@ brew install qcachegrind
 **Threads** Let us run parallel tasks inside a process.
 **Executor** The process that's in charge of distributing the work among the different workers.
 **Futures** module - Provides a couple of different executors; one for using threads and another for using processes.
+
+---
+
+### [concurrency and parallelism](https://realpython.com/python-concurrency/)
+
+### [Asyncio events and task loops](https://hackernoon.com/threaded-asynchronous-magic-and-how-to-wield-it-bba9ed602c32)
+
+---
