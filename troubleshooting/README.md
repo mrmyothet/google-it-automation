@@ -432,3 +432,16 @@ and how long until the problem's resolved.
 and its numerical mathematics extension NumPy(installed upon installing matplotlib).
 It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits.
 Even simpler, it's a visualization library in Python for 2D plots of arrays.
+
+--- 
+
+```bash
+pip install memory_profiler
+
+python3 -m memory_profiler update_products.py
+
+```
+
+```bash
+sudo lsof | grep deleted
+```
