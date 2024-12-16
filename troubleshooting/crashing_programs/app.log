@@ -1,0 +1,4 @@
+INFO:root:Attempting to log in user: myothet
+INFO:root:Successfully logged in user: myothet
+2024-12-16 15:48:10,665 - INFO - Attempting to log in user: myothet
+2024-12-16 15:48:10,665 - INFO - Successfully logged in user: myothet
