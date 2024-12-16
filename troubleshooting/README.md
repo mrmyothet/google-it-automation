@@ -423,3 +423,12 @@ and how long until the problem's resolved.
 - **Watchdog:** This is another process that checks whether a program is running and, when it's not, starts the program again
 - **Watchpoints:** Debugging feature that lets code run until a variable or expression changes
 - **Wrapper:** A function or program that provides a compatibility layer between two functions or programs, so that
+
+---
+
+### Qwiklabs assessment: Fix errors in Python scripts
+
+**Matplotlib** is a plotting library for the Python programming language
+and its numerical mathematics extension NumPy(installed upon installing matplotlib).
+It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits.
+Even simpler, it's a visualization library in Python for 2D plots of arrays.
