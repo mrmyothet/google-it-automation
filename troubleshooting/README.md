@@ -1,3 +1,5 @@
+# Troubleshooting and Debugging Techniques
+
 Whenever possible, we should check our hypothesis in a test environment,
 indead of the production server that our users are working with.
 
@@ -326,5 +328,27 @@ ls -l /etc/uwsgi/
 sudo service uwsgi reload
 
 sudo chown www-data.www-data site.log
+
+```
+
+### Code that Crashes
+
+- **Traceback** shows the lines of the different functions that were being executed when the problem happened.
+- **Off-by-one-error**
+
+Debugging C programs
+```bash
+# generate core file
+ulimit -c unlimited
+
+ls -l core
+
+gdb -c core example
+
+backtrace
+
+list 
+
+up
 
 ```
