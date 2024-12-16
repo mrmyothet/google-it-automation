@@ -376,3 +376,33 @@ pdb3 update_products.py --filename new_products.csv
 - [Bottle web framework](https://github.com/bottlepy/bottle/blob/master/bottle.py)
 - [SQLAlchemy database toolkit](https://github.com/sqlalchemy/sqlalchemy)
 - [Complete Application - Home Assistant](https://github.com/home-assistant/core)
+
+---
+
+### Communication and Documentation 
+
+**Communications lead:** 
+Needs to know what's going on, 
+and provide timely updates on the current state 
+and how long until the problem's resolved.
+
+- The root cause 
+- How you diagnosed the problem and found that root cause 
+- What you did to fix the issue
+- What needs to be done to prevent the problem from happening again
+
+**Postmortems:** Documents that describe details of incidents to help us learn from our mistakes.
+- what happened 
+- why it happened 
+- how it was diagnosed 
+- how it was fixed 
+- how to prevent the same event happening in the future
+
+---
+
+- what caused the issue
+- what the impact of the issue was 
+- how it got diagnosed 
+- the short-term remediation you applied 
+- the logn-term remediation you recommend 
+- lessons learned 
