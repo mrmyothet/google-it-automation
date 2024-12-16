@@ -293,18 +293,19 @@ brew install qcachegrind
 
 ## Crashing Programs
 
-### Why Programs Crash 
+### Why Programs Crash
 
-**Wrapper:** A function or program that provides a compatibility layer between two functions or programs, 
-so they can work well together. 
+**Wrapper:** A function or program that provides a compatibility layer between two functions or programs,
+so they can work well together.
 
 **Watchdog** A process that checks whether a program is running and, when it's not, starts the program again
 
 **Reproduction case**
+
 - What were you trying to do?
-- What were the steps you followed? 
+- What were the steps you followed?
 - What did you expect to happen?
-- What was the actual outcome? 
+- What was the actual outcome?
 
 ```bash
 date
@@ -337,6 +338,7 @@ sudo chown www-data.www-data site.log
 - **Off-by-one-error**
 
 Debugging C programs
+
 ```bash
 # generate core file
 ulimit -c unlimited
@@ -347,7 +349,7 @@ gdb -c core example
 
 backtrace
 
-list 
+list
 
 up
 
@@ -361,3 +363,16 @@ pdb3 update_products.py --filename new_products.csv
 (Pdb) print(row)
 (Pdb) exit()
 ```
+
+---
+
+### Real-world code examples
+
+- [Minecraft](https://github.com/fogleman/Minecraft)
+- [CherryPy web framework](https://github.com/cherrypy/cherrypy)
+- [Flask web application framework](https://github.com/pallets/flask)
+- [Tornado web framework](https://github.com/tornadoweb/tornado)
+- [Howdoi command line tool](https://github.com/gleitz/howdoi)
+- [Bottle web framework](https://github.com/bottlepy/bottle/blob/master/bottle.py)
+- [SQLAlchemy database toolkit](https://github.com/sqlalchemy/sqlalchemy)
+- [Complete Application - Home Assistant](https://github.com/home-assistant/core)
