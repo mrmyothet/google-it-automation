@@ -89,7 +89,7 @@ head -50 contacts.csv | tail -25 | tail -12 | head -6 | head -3 | ./import.py --
 
 ---
 
-### Terms and definitions
+### Terms and definitions (concepts)
 
 - **Binary search:** A search algorithm used to find a specific item in a sorted list or array by repeatedly dividing the search space in half until the desired item is found or determined to be absent
 - **Bisecting:** Dividing in two, also a Git command
@@ -379,30 +379,47 @@ pdb3 update_products.py --filename new_products.csv
 
 ---
 
-### Communication and Documentation 
+### Communication and Documentation
 
-**Communications lead:** 
-Needs to know what's going on, 
-and provide timely updates on the current state 
+**Communications lead:**
+Needs to know what's going on,
+and provide timely updates on the current state
 and how long until the problem's resolved.
 
-- The root cause 
-- How you diagnosed the problem and found that root cause 
+- The root cause
+- How you diagnosed the problem and found that root cause
 - What you did to fix the issue
 - What needs to be done to prevent the problem from happening again
 
 **Postmortems:** Documents that describe details of incidents to help us learn from our mistakes.
-- what happened 
-- why it happened 
-- how it was diagnosed 
-- how it was fixed 
+
+- what happened
+- why it happened
+- how it was diagnosed
+- how it was fixed
 - how to prevent the same event happening in the future
 
 ---
 
 - what caused the issue
-- what the impact of the issue was 
-- how it got diagnosed 
-- the short-term remediation you applied 
-- the logn-term remediation you recommend 
-- lessons learned 
+- what the impact of the issue was
+- how it got diagnosed
+- the short-term remediation you applied
+- the logn-term remediation you recommend
+- lessons learned
+
+---
+
+### Terms and definitions - (crashing programs)
+
+- **Breakpoints:** Debugging features that lets code run until a certain line of code is executed
+- **Communications lead:** The lead person who needs to receive timely important communication updates
+- **Core files:** Files that store all the information related to the crash to debug the issue
+- **Incident commander (incident controller):** The person who needs to look at the big picture and decide what's the best use of the available resources
+- **Pointers:** The variables that store memory addresses
+- **Postmortems:** Documents that describe details of incidents to learn from mistakes
+- **Undefined behavior:** The code is doing something that's not valid in that programming language
+- **Valgrind:** A powerful tool that can tell if the code is doing any invalid operations, no matter if it crashes or not
+- **Watchdog:** This is another process that checks whether a program is running and, when it's not, starts the program again
+- **Watchpoints:** Debugging feature that lets code run until a variable or expression changes
+- **Wrapper:** A function or program that provides a compatibility layer between two functions or programs, so that
