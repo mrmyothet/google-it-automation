@@ -352,3 +352,12 @@ list
 up
 
 ```
+
+---
+
+```bash
+pdb3 update_products.py --filename new_products.csv
+(Pdb) continue
+(Pdb) print(row)
+(Pdb) exit()
+```
