@@ -25,9 +25,9 @@ def get_start_date():
     print("Getting the first start date to query for.")
     print()
     print("The date must be greater than Jan 1st, 2018")
-    year = input("Enter a value for the year: ")
-    month = input("Enter a value for the month: ")
-    day = input("Enter a value for the day: ")
+    year = int(input("Enter a value for the year: "))
+    month = int(input("Enter a value for the month: "))
+    day = int(input("Enter a value for the day: "))
     print()
 
     return datetime.datetime(year, month, day)
@@ -45,9 +45,9 @@ def get_file_lines(url):
     return lines
 
 
-def get_same_or_newer(start_date):
+def get_same_or_newer(start_date, data):
     """Returns the employees that started on the given date, or the closest one."""
-    data = get_file_lines(FILE_URL)
+    # data = get_file_lines(FILE_URL)
     reader = csv.reader(data[1:])
 
     # We want all employees that started at the same date or the closest newer
@@ -81,8 +81,9 @@ def get_same_or_newer(start_date):
 
 
 def list_newer(start_date):
+    data = get_file_lines(FILE_URL)
     while start_date < datetime.datetime.today():
-        start_date, employees = get_same_or_newer(start_date)
+        start_date, employees = get_same_or_newer(start_date, data)
         print("Started on {}: {}".format(start_date.strftime("%b %d, %Y"), employees))
 
         # Now move the date to the next one
