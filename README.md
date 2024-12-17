@@ -84,3 +84,7 @@ Regular Expression (RegEx) is a sequence of characters that defines a search pat
 - https://docs.python.org/3/tutorial/errors.html#raising-exceptions
 - https://realpython.com/python-exceptions/
 - https://realpython.com/python-raise-exception/#handling-exceptional-situations-in-python
+
+---
+
+### [Interview Warmup](https://grow.google/certificates/interview-warmup/)
