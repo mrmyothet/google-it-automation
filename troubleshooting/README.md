@@ -467,3 +467,10 @@ top columns
 ---
 
 **Decorator:** Used in Python to add extra behavior to functions without having to modify the code 
+
+--- 
+### Managing Our Time 
+1. Make a list of all the tasks that need to get done
+2. Check the real urgency of the tasks 
+3. Assess the importance of each issue
+4. How much effor they'll take
