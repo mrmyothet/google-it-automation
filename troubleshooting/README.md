@@ -433,7 +433,7 @@ and its numerical mathematics extension NumPy(installed upon installing matplotl
 It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits.
 Even simpler, it's a visualization library in Python for 2D plots of arrays.
 
---- 
+---
 
 ```bash
 pip install memory_profiler
@@ -446,7 +446,7 @@ python3 -m memory_profiler update_products.py
 sudo lsof | grep deleted
 ```
 
---- 
+---
 
 **Latency:** The delay between sending a byte of data from one point and receiving it on the other
 **Bandwidth:** How much data can be sent or received in a second
@@ -459,18 +459,45 @@ od -cx /dev/urandom
 top
 ```
 
-top columns 
+top columns
+
 - **RES** - dynamic memory preserved for the specific process
 - **SHR** - memory that's shared across processes
 - **VIRT** - virtual memory allocated for each process
 
 ---
 
-**Decorator:** Used in Python to add extra behavior to functions without having to modify the code 
+**Decorator:** Used in Python to add extra behavior to functions without having to modify the code
 
---- 
-### Managing Our Time 
+---
+
+### Managing Our Time
+
 1. Make a list of all the tasks that need to get done
-2. Check the real urgency of the tasks 
+2. Check the real urgency of the tasks
 3. Assess the importance of each issue
 4. How much effor they'll take
+
+- [The “Everything is Important” paradox: 9 practical methods for how to prioritize your work (and time)](https://blog.rescuetime.com/how-to-prioritize/)
+
+---
+
+### Change management in virtualized environments
+
+- [Best practices for Compute Engine disk snapshots](https://cloud.google.com/compute/docs/disks/snapshot-best-practices)
+- [Restore from a snapshot](https://cloud.google.com/compute/docs/disks/restore-snapshot)
+- [Create archive and standard disk snapshots](https://cloud.google.com/compute/docs/disks/create-snapshots)
+- [Create schedules for disk snapshots](https://cloud.google.com/compute/docs/disks/scheduled-snapshots)
+- [Using Snapshots To Manage Virtual Machines](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.vm_admin.doc/GUID-CA948C69-7F58-4519-AEB1-739545EA94E5.html)
+
+---
+
+### Containerized Applications: Docker
+
+- [Use containers to Build, Share and Run your applications](https://www.docker.com/resources/what-container/)
+- [Containerized Applications Overview](https://www.datadoghq.com/knowledge-center/containerized-applications/)
+- [How To Install WordPress With Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-docker-compose)
+- https://docker-curriculum.com/
+- https://www.docker.com/101-tutorial/
+- [6 Docker Alternatives to Look Out for in 2024](https://jfrog.com/devops-tools/article/alternatives-to-docker)
+- [Docker vs. Containerd: A Quick Comparison (2023)](https://kodekloud.com/blog/docker-vs-containerd/)
