@@ -5,6 +5,8 @@ import csv
 import sqlite3
 import sys
 
+from memory_profiler import profile
+
 
 def process_options():
     arg_parser = argparse.ArgumentParser(
@@ -55,6 +57,7 @@ def update_data(database, options):
         database.commit()
 
 
+@profile
 def main():
     db_name = "products"
     database = database_connection(db_name)

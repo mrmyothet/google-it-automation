@@ -445,3 +445,25 @@ python3 -m memory_profiler update_products.py
 ```bash
 sudo lsof | grep deleted
 ```
+
+--- 
+
+**Latency:** The delay between sending a byte of data from one point and receiving it on the other
+**Bandwidth:** How much data can be sent or received in a second
+
+---
+
+```bash
+od -cx /dev/urandom
+
+top
+```
+
+top columns 
+- **RES** - dynamic memory preserved for the specific process
+- **SHR** - memory that's shared across processes
+- **VIRT** - virtual memory allocated for each process
+
+---
+
+**Decorator:** Used in Python to add extra behavior to functions without having to modify the code 
