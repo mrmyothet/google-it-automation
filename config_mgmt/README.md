@@ -56,3 +56,9 @@ gcloud compute instances create --zone us-central1-a --source-instance-template 
 gcloud compute instances list
 
 ```
+
+#### Limitation
+
+- https://cloud.google.com/compute/resource-usage
+- https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html
+- https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits
