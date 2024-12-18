@@ -108,3 +108,26 @@ gcloud compute instances list
 - **End-to-end (E2E) tests:** This type of testing simulates the behavior of a real user (e.g., by opening the browser and navigating through several pages). E2E tests are run against the fully deployed docker container, checking that the entire application stack with its various components and services functions correctly as a whole.
 
 - **Performance tests:** This type of testing identifies bottlenecks. Performance tests are run against the fully deployed Docker container and test various stresses and loads to ensure the application performs at expectations.
+
+---
+
+### Enable Kubernetes
+
+- [kind](https://kind.sigs.k8s.io/docs/user/quick-start/)
+- [k3s](https://docs.k3s.io/quick-start)
+- [microk8s](https://microk8s.io/docs/getting-started)
+- [minikube](https://minikube.sigs.k8s.io/docs/start/)
+
+---
+
+- [Pods](https://kubernetes.io/docs/concepts/workloads/pods/)
+- [Official Python client library for Kubernetes](https://github.com/kubernetes-client/python)
+- [DNS for Services and Pods](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/)
+- [Create an External Load Balancer](https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/)
+- [External Name – Kubernetes Networking](https://ibm.github.io/kubernetes-networking/services/externalname/)
+- [Kubernetes Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+- [Managing Resources](https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/)
+- [Kubernetes ReplicaSets](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
+- [Declarative Application Management in Kubernetes](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/declarative-config/)
+- [Configure Liveness, Readiness and Startup Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
+- [Rolling Back a Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-back-a-deployment)
