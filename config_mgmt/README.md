@@ -96,3 +96,15 @@ gcloud compute instances list
 - Throughput: The amount of data that you can read and write in a given amount of time
 - Rate limits: Prevent one service from overloading the whole system
 - Utilization limits: Cap the total amount of a certain resource that you can provision
+
+---
+
+### Build artifact testing
+
+- **Unit tests:** These are small, granular tests written by the developer to test individual functions in the code. In Docker, unit tests are run directly on your codebase before the Docker image is built, ensuring the code is working as expected before being packaged.
+
+- **Integration tests:** These refer to testing an application or microservice in conjunction with the other services on which it relies. In a Dockerized environment, integration tests are run after the docker image is built and the container is running, testing how different components operate together inside the Docker container.
+
+- **End-to-end (E2E) tests:** This type of testing simulates the behavior of a real user (e.g., by opening the browser and navigating through several pages). E2E tests are run against the fully deployed docker container, checking that the entire application stack with its various components and services functions correctly as a whole.
+
+- **Performance tests:** This type of testing identifies bottlenecks. Performance tests are run against the fully deployed Docker container and test various stresses and loads to ensure the application performs at expectations.
