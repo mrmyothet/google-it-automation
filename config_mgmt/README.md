@@ -131,3 +131,28 @@ gcloud compute instances list
 - [Declarative Application Management in Kubernetes](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/declarative-config/)
 - [Configure Liveness, Readiness and Startup Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
 - [Rolling Back a Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-back-a-deployment)
+
+---
+
+- [Deploy to Cloud Run](https://cloud.google.com/run/docs/quickstarts/deploy-container)
+- [Deploy an app to a GKE cluster](https://cloud.google.com/kubernetes-engine/docs/deploy-app-cluster)
+- [Google Kubernetes Engine vs Cloud Run: Which should you use?](https://cloud.google.com/blog/products/containers-kubernetes/when-to-use-google-kubernetes-engine-vs-cloud-run-for-containers)
+- [Containers on Compute Engine](https://cloud.google.com/compute/docs/containers/)
+- [Objects In Kubernetes](https://kubernetes.io/docs/concepts/overview/working-with-objects/)
+- [Get started with Kubernetes (using Python)](https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/)
+
+---
+
+- [Horizontal Vs. Vertical Scaling: Which Should You Choose?](https://www.cloudzero.com/blog/horizontal-vs-vertical-scaling/)
+- [Scaling an application](https://cloud.google.com/kubernetes-engine/docs/how-to/scaling-apps)
+- [Horizontal Pod autoscaling](https://cloud.google.com/kubernetes-engine/docs/concepts/horizontalpodautoscaler)
+- [Configuring horizontal Pod autoscaling](https://cloud.google.com/kubernetes-engine/docs/how-to/horizontal-pod-autoscaling)
+- [Configure multidimensional Pod autoscaling](https://cloud.google.com/kubernetes-engine/docs/how-to/multidimensional-pod-autoscaling)
+- [About instance autoscaling in Cloud Run services](https://cloud.google.com/run/docs/about-instance-autoscaling)
+- [About autoscaling workloads based on metrics](https://cloud.google.com/kubernetes-engine/docs/concepts/custom-and-external-metrics)
+- [Google Kubernetes Engine pricing](https://cloud.google.com/kubernetes-engine/pricing)
+
+---
+
+- [Patterns for scalable and resilient apps](https://cloud.google.com/architecture/scalable-and-resilient-apps)
+- [Google Cloud Networking overview](https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-networking-overview)
