@@ -155,4 +155,31 @@ gcloud compute instances list
 ---
 
 - [Patterns for scalable and resilient apps](https://cloud.google.com/architecture/scalable-and-resilient-apps)
+
+---
+
 - [Google Cloud Networking overview](https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-networking-overview)
+- [Virtual Private Cloud (VPC)](https://cloud.google.com/vpc/?hl=en)
+- [Subnets](https://cloud.google.com/vpc/docs/subnets)
+- [Scalable, cloud-first firewall service](https://cloud.google.com/security/products/firewall?hl=en)
+- [Cloud Load Balancing](https://cloud.google.com/load-balancing?hl=en)
+- [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine?hl=en)
+
+---
+
+- [Exploring container security](https://cloud.google.com/blog/products/containers-kubernetes/exploring-container-security-let-google-do-the-patching-with-new-managed-base-images)
+- [Security Command Center overview](https://cloud.google.com/security-command-center/docs/concepts-security-command-center-overview)
+- [Shared responsibilities and shared fate on Google Cloud](https://cloud.google.com/architecture/framework/security/shared-responsibility-shared-fate)
+- [GKE shared responsibility](https://cloud.google.com/kubernetes-engine/docs/concepts/shared-responsibility)
+
+---
+
+### Terms and definitions (Docker and Kubernetes)
+
+- **Artifact:** A byproduct of the software development process that can be accessed and used, an item produced during programming
+- **Docker:** An open-source tool used to build, deploy, run, update, and manage containers
+- **Kubernetes:** An open-source platform that gives programmers the power to orchestrate containers
+- **Registry:** A place where containers or artifacts are stored and organized
+- **Container registry:** A storage location for container images, organized for efficient access
+- **Container repository:** A container registry that manages container images
+- **Pod:** A group of one or more containers that are scheduled and run together
