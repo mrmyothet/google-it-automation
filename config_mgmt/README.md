@@ -183,3 +183,11 @@ gcloud compute instances list
 - **Container registry:** A storage location for container images, organized for efficient access
 - **Container repository:** A container registry that manages container images
 - **Pod:** A group of one or more containers that are scheduled and run together
+
+---
+
+```bash
+
+sudo apt install puppet-master
+
+```
