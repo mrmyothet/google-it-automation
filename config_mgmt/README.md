@@ -190,4 +190,6 @@ gcloud compute instances list
 
 sudo apt install puppet-master
 
+sudo puppet apply -v tools.pp
+
 ```
