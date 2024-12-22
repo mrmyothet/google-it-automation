@@ -193,3 +193,13 @@ sudo apt install puppet-master
 sudo puppet apply -v tools.pp
 
 ```
+
+```bash
+
+sudo apt install puppet-module-puppetlabs-apache
+
+cd /usr/share/puppet/modules.available/puppetlabs-apache/
+
+sudo puppet apply -v webserver.pp
+
+```
