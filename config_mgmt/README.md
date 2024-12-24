@@ -220,3 +220,8 @@ sudo systemctl status puppet
 - [The Puppet language style guide](https://puppet.com/docs/puppet/latest/style_guide.html)
 - [Open source Puppet](https://puppet.com/docs/puppetserver/latest/install_from_packages.html)
 - [Puppet SSL explained](http://www.masterzen.fr/2010/11/14/puppet-ssl-explained/)
+
+---
+
+- [rspec-puppet](https://rspec-puppet.com/tutorial/)
+- [puppet-lint](http://puppet-lint.com/)
