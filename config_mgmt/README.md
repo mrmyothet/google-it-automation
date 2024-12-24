@@ -204,5 +204,18 @@ sudo puppet apply -v webserver.pp
 
 ```
 
+```bash 
+sudo puppet config --section master set augosign true
+
+ssh webserver
+sudo apt install puppet
+sudo puppet config set server ubuntu.example.com
+sudo puppet agent -v --test
+sudo systemctl enable puppet
+sudo systemctl start puppet
+sudo systemctl status puppet
+
+```
+
 - [The Puppet language style guide](https://puppet.com/docs/puppet/latest/style_guide.html)
 - [Open source Puppet](https://puppet.com/docs/puppetserver/latest/install_from_packages.html)
