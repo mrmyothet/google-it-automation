@@ -203,3 +203,6 @@ cd /usr/share/puppet/modules.available/puppetlabs-apache/
 sudo puppet apply -v webserver.pp
 
 ```
+
+- [The Puppet language style guide](https://puppet.com/docs/puppet/latest/style_guide.html)
+- [Open source Puppet](https://puppet.com/docs/puppetserver/latest/install_from_packages.html)
