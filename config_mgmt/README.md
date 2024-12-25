@@ -238,3 +238,35 @@ sudo systemctl status puppet
 - https://cloud.google.com/compute/docs/troubleshooting/troubleshooting-instances
 - https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/
 - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-troubleshoot.html
+
+---
+
+### Debugging a problem with a cloud deployment
+
+```bash
+
+sudo systemctl status apache2
+sudo systemctl restart apache2
+sudo systemctl status apache2
+
+sudo netstat -nlp
+ps -ax | grep python3
+
+sudo kill [process-id]
+sudo systemctl --type=service | grep jimmy
+sudo systemctl stop jimmytest && sudo systemctl disable jimmytest
+sudo netstat -nlp
+
+sudo systemctl start apache2
+
+```
+
+---
+
+### Terms and definitions (Puppet)
+
+- **Configuration management:** Automation technique that manages the configuration of computers at scale
+- **Domain-Specific Language (DSL):** A programming language that's more limited in scope
+- **Facts:** Variables that represent the characteristics of the system
+- **Puppet:** The current industry standard for configuration management, also known as the client
+- **Puppet master:** Known as the Puppet server
