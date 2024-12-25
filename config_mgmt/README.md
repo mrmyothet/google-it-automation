@@ -232,3 +232,9 @@ sudo systemctl status puppet
 - https://www.digitalocean.com/community/tutorials/an-introduction-to-metrics-monitoring-and-alerting
 - https://en.wikipedia.org/wiki/High_availability
 - https://landing.google.com/sre/books/
+
+---
+
+- https://cloud.google.com/compute/docs/troubleshooting/troubleshooting-instances
+- https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-troubleshoot.html
