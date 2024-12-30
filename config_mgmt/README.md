@@ -306,3 +306,13 @@ sudo systemctl start apache2
 - [A Comprehensive Guide to Canary Releases](https://blog.getambassador.io/cloud-native-patterns-canary-release-1cb8f82d371a)
 - [Canary Deployment & Release Process](https://www.bmc.com/blogs/canary-deployment-release/)
 - [Using blue-green deployment to reduce downtime](https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html)
+
+---
+
+### Tools for end-to-end tests
+
+- **Selenium** is a popular open-source tool that allows for automated testing across various platforms and browsers. It supports multiple programming languages like Java, C#, and Python.
+- **Puppeteer** is a Node library that provides a high-level API to control Chrome or Chromium over the DevTools Protocol. It can be used for testing Chrome extensions and for generating screenshots and PDFs of pages.
+- **Cypress** is a JavaScript-based testing framework that doesn't use Selenium. It allows you to write all types of tests: E2E tests, integration tests, and unit tests. However, Cypress doesn’t support Python.
+- **Appium** is an open-source tool for automating native, mobile web, and hybrid applications on iOS mobile, Android mobile, and Windows desktop platforms. It's widely used for end-to-end testing of mobile applications.
+- **Protractor** is an end-to-end test framework for Angular and AngularJS applications. It runs tests against your application running in a real browser, interacting with it as a user would.
