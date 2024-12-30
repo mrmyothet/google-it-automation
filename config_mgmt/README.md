@@ -293,3 +293,16 @@ sudo systemctl start apache2
 - https://docs.github.com/en/actions
 - https://github.blog/2022-06-03-a-beginners-guide-to-ci-cd-and-automation-on-github/
 - https://github.blog/2020-04-16-github-protips-tips-tricks-hacks-and-secrets-from-jason-etcovitch/
+
+---
+
+### CD best practices
+
+- [Continuous delivery principles](https://www.atlassian.com/continuous-delivery/principles)
+- [What is Continuous Deployment?](https://github.com/resources/articles/devops/continuous-deployment)
+- [Continuous Deployment](https://scaledagileframework.com/continuous-deployment/)
+- [Feature Flags](https://launchdarkly.com/blog/what-are-feature-flags/)
+- [Incremental rollouts with GitLab CI/CD](https://docs.gitlab.com/ee/ci/environments/incremental_rollouts.html)
+- [A Comprehensive Guide to Canary Releases](https://blog.getambassador.io/cloud-native-patterns-canary-release-1cb8f82d371a)
+- [Canary Deployment & Release Process](https://www.bmc.com/blogs/canary-deployment-release/)
+- [Using blue-green deployment to reduce downtime](https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html)
