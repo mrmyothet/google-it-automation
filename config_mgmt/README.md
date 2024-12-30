@@ -270,3 +270,26 @@ sudo systemctl start apache2
 - **Facts:** Variables that represent the characteristics of the system
 - **Puppet:** The current industry standard for configuration management, also known as the client
 - **Puppet master:** Known as the Puppet server
+
+---
+
+### Integration with Github
+
+- https://www.simplilearn.com/tutorials/git-tutorial/what-is-github
+- https://github.blog/2022-06-03-a-beginners-guide-to-ci-cd-and-automation-on-github/
+- https://docs.github.com/en/webhooks-and-events/webhooks/creating-webhooks
+- https://santoshk.dev/posts/2022/how-to-setup-a-github-to-jenkins-pipeline-with-webhook/
+- https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks
+- https://circleci.com/docs/enable-checks/
+
+---
+
+- [How to Use Value Stream Mapping in DevOps](https://www.lucidchart.com/blog/value-stream-mapping-for-devops)
+
+---
+
+### Github and delivery
+
+- https://docs.github.com/en/actions
+- https://github.blog/2022-06-03-a-beginners-guide-to-ci-cd-and-automation-on-github/
+- https://github.blog/2020-04-16-github-protips-tips-tricks-hacks-and-secrets-from-jason-etcovitch/
