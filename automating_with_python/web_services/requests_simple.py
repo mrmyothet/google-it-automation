@@ -17,3 +17,14 @@ if not response.ok:
 
 # will raise HTTPError exception only if the response was unsuccessful
 response.raise_for_status()
+
+params = {"search": "grey kitten", "max_results": 15}
+
+response = requests.get("https://www.google.com", params=params)
+print(response.request.url)
+
+data = {"description": "white kitten", "name": "Snowball", "age_months": 6}
+# response = requests.post("https://www.google.com", data=data)
+response = requests.post("https://www.google.com", json=data)
+print(response.request.url)
+print(response.request.body)
