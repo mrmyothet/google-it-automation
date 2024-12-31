@@ -316,3 +316,15 @@ sudo systemctl start apache2
 - **Cypress** is a JavaScript-based testing framework that doesn't use Selenium. It allows you to write all types of tests: E2E tests, integration tests, and unit tests. However, Cypress doesn’t support Python.
 - **Appium** is an open-source tool for automating native, mobile web, and hybrid applications on iOS mobile, Android mobile, and Windows desktop platforms. It's widely used for end-to-end testing of mobile applications.
 - **Protractor** is an end-to-end test framework for Angular and AngularJS applications. It runs tests against your application running in a real browser, interacting with it as a user would.
+
+---
+
+### Terms and definitions (CI/CD)
+
+- **Continuous delivery:** Any changes to the software are tested and then deployed to users and servers as soon as they are verified
+- **Continuous deployment:** Automates the deployment of code to production
+- **Continuous integration:** Constantly adding updates and improvements to software
+- **DevOps:** Describes the steps of the software development lifecycle beyond writing code, the union between the development team and the operations team
+- **DevSecOps:** Adding security testing and protection to the software development lifecycle
+- **Production:** The software is pushed out to the end users from a cloud server
+- **Staging:** A strategic DevOps approach where we specify the build steps and tests
