@@ -82,3 +82,17 @@ The Richardson Maturity Model consists of four levels, each representing a progr
 - [15 Useful Flask Extensions and Libraries That I Use in Every Project](https://nickjanetakis.com/blog/15-useful-flask-extensions-and-libraries-that-i-use-in-every-project)
 - [Official Tutorials](https://flask.palletsprojects.com/en/stable/tutorial/)
 - [How to Build a Flask Python Web Application from Scratch](https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3)
+
+---
+
+### Data Serialization and Deserialization
+
+| **Python**                                   | **JSON** |
+| -------------------------------------------- | -------- |
+| `dict`                                       | `object` |
+| `list`, `tuple`                              | `array`  |
+| `str`                                        | `string` |
+| `int`, `float`, `int- & float-derived Enums` | `number` |
+| `True`                                       | `true`   |
+| `False`                                      | `false`  |
+| `None`                                       | `null`   |
