@@ -16,3 +16,13 @@ Pillow offers several standard procedures for image manipulation. These include:
 - Image filtering, such as blurring, contouring, smoothing, or edge finding
 - Image enhancing, like sharpening and adjusting brightness, contrast or color
 - Adding text to images (and much more!)
+
+---
+
+```bash
+
+pip install pipenv
+
+pipenv install pipenv
+
+```
