@@ -55,3 +55,30 @@ The Richardson Maturity Model consists of four levels, each representing a progr
 - **Level 1** - Multiple URIs but still a single verb
 - **Level 2** - Makes use of URIs and multiple methods, but is not HATEOAS (Hypermedia as the Engine of Application State)
 - **Level 3** - Full HATEOAS
+
+---
+
+### Python tools for REST APIs
+
+##### Client Side
+
+- Requests
+- HTTPX
+- AIOHTTP
+- PycURL
+- [HTTPX vs Requests vs AIOHTTP](https://oxylabs.io/blog/httpx-vs-requests-vs-aiohttp)
+
+##### Server Side
+
+- Flask
+- Django
+- FastAPI
+- [Top 10 Python REST API Frameworks in 2024](https://www.browserstack.com/guide/top-python-rest-api-frameworks)
+
+### Flask
+
+- [Quick Start](https://flask.palletsprojects.com/en/stable/quickstart/)
+- [Flask-Caching](https://flask-caching.readthedocs.io/en/latest/)
+- [15 Useful Flask Extensions and Libraries That I Use in Every Project](https://nickjanetakis.com/blog/15-useful-flask-extensions-and-libraries-that-i-use-in-every-project)
+- [Official Tutorials](https://flask.palletsprojects.com/en/stable/tutorial/)
+- [How to Build a Flask Python Web Application from Scratch](https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3)
