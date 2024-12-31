@@ -5,7 +5,7 @@ from .transaction_type import TransactionType
 
 
 class Expense(Transaction):
-    def __init__(self, description, amount, type):
+    def __init__(self, description, amount):
         super().__init__(description, -abs(amount), TransactionType.EXPENSE)
 
     def __repr__(self):
