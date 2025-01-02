@@ -1,10 +1,12 @@
 from email.message import EmailMessage
 import os.path
 import mimetypes
+import smtplib
+import getpass
 
 message = EmailMessage()
 
-sender = "mr.myothet@gmail.com"
+sender = "myothet@solidplmtech.com"
 recipient = "myothet@solidplm.com"
 
 message["From"] = sender
@@ -14,7 +16,13 @@ message["Subject"] = "Greetings from {} to {}!".format(sender, recipient)
 
 body = """Hey there!
 
-I'm learning to send emails using Python!"""
+I'm learning to send emails using Python!
+
+
+
+Best Regards, 
+Myo Thet 
+"""
 
 message.set_content(body)
 
@@ -33,4 +41,17 @@ with open(attachment_path, "rb") as ap:
         filename=os.path.basename(attachment_path),
     )
 
-print(message)
+# print(message)
+
+mail_server = smtplib.SMTP_SSL("mail5009.site4now.net", 465)
+mail_server.set_debuglevel(1)
+
+mail_password = getpass.getpass(prompt="Password? ")
+
+try:
+    mail_server.login(sender, mail_password)
+    mail_server.send_message(message)
+except smtplib.SMTPAuthenticationError:
+    print("SMTP Authentication Error")
+finally:
+    mail_server.quit()
