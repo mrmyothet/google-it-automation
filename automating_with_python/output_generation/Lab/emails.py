@@ -34,6 +34,7 @@ def generate(sender, recipient, subject, body, attachment_path):
 
 def send(message):
     """Sends the message to the configured SMTP server."""
-    mail_server = smtplib.SMTP("localhost")
+    # mail_server = smtplib.SMTP("localhost")
+    mail_server = smtplib.SMTP_SSL("mail5009.site4now.net", 465)
     mail_server.send_message(message)
     mail_server.quit()
