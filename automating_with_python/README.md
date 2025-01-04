@@ -110,3 +110,13 @@ The Richardson Maturity Model consists of four levels, each representing a progr
 - **REST architecture:** An architectural style for designing networked applications and web services
 - **Richardson Maturity Model (RMM):** A framework that categorizes and describes different levels of implementation for RESTful APIs based on their adherence to the six constraints
 - **Web application:** An application that you interact with over HTTP
+
+### Module Documentations
+
+- [Python Image Library(PIL)](https://pillow.readthedocs.io/en/stable/)
+- [Requests (HTTP client library)](https://requests.readthedocs.io/en/latest/)
+- [Reportlab (PDF creation library)](https://www.reportlab.com/docs/reportlab-userguide.pdf)
+- [email (constructing email)](https://docs.python.org/3/library/email.examples.html)
+- [psutil (process and system utilization)](https://psutil.readthedocs.io/en/latest/)
+- [shutil (file operations)](https://docs.python.org/3/library/shutil.html)
+- [smtplib (sending email)](https://docs.python.org/3/library/smtplib.html)
