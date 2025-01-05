@@ -27,6 +27,11 @@
 - [Git and GitHub](https://coursera.org/share/2e664ed7624ad27981b8f8f2c32b97c9)
 - [Troubleshooting and Debugging Techniques](https://coursera.org/share/5fb9763594d23c2d207da3c41c91152d)
 - [Configuration Management and The Cloud](https://coursera.org/share/e0843808a66f5f09fb0f975144c3f31e)
+- [Automating Real-World Tasks with Python](https://coursera.org/share/1f700b5a5fdaaa7dcc0c28140aef0d03)
+
+---
+
+### [Google IT Automation with Python Professional Certificate](https://www.credly.com/badges/7a27338f-6a4d-4fa4-8c0b-6b280b35a47e/public_url)
 
 ---
 
